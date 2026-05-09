@@ -6,7 +6,6 @@
     ":disableDependencyDashboard"
   ],
   "timezone": "Europe/London",
-  "schedule": ["* 10-23 * * MON"],
   "minimumReleaseAge": "14 days",
   "semanticCommits": true,
   "platformAutomerge": true,
