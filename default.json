@@ -6,6 +6,7 @@
     ":disableDependencyDashboard"
   ],
   "timezone": "Europe/London",
+  "cloneSubmodules": true,
   "minimumReleaseAge": "14 days",
   "semanticCommits": true,
   "platformAutomerge": true,
