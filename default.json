@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "LocalBytes org-wide Renovate defaults",
+  "extends": [
+    "config:recommended",
+    ":disableDependencyDashboard"
+  ],
+  "timezone": "Europe/London",
+  "schedule": ["* 10-23 * * MON"],
+  "minimumReleaseAge": "14 days",
+  "semanticCommits": true,
+  "platformAutomerge": true,
+  "packageRules": [{
+	"matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+	"automerge": true
+  }]
+}
