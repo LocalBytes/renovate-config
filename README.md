@@ -6,7 +6,7 @@ LocalBytes org-wide Renovate defaults
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "local>LocalBytes/renovate-config"
+    "github>LocalBytes/renovate-config"
   ]
 }
 ```
