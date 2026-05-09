@@ -3,15 +3,18 @@
   "description": "LocalBytes org-wide Renovate defaults",
   "extends": [
     "config:recommended",
-    ":disableDependencyDashboard"
+    ":disableDependencyDashboard",
+    ":automergeMinor",
+    ":automergeDigest"
   ],
   "timezone": "Europe/London",
   "cloneSubmodules": true,
   "minimumReleaseAge": "14 days",
   "semanticCommits": true,
-  "platformAutomerge": true,
-  "packageRules": [{
-	"matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-	"automerge": true
-  }]
+  "packageRules": [
+    {
+      "matchPackageNames": ["localbytes", "@localbytes/**"],
+      "automerge": true
+    }
+  ]
 }
