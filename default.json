@@ -22,8 +22,10 @@
       "minimumReleaseAge": "0 days"
     }
   ],
+  "nix": {
+    "enabled": true
+  },
   "git-submodules": {
-    "enabled": true,
-    "automerge": true
+    "enabled": true
   }
 }
