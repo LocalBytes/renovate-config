@@ -13,11 +13,13 @@
   "semanticCommits": true,
   "packageRules": [
     {
+      "description": "1st party LocalBytes dependencies — automerge, no cooldown",
       "matchPackageNames": [
-        "localbytes",
-        "@localbytes/**"
+        "@localbytes/*",
+        "https://github.com/localbytes/**"
       ],
-      "automerge": true
+      "automerge": true,
+      "minimumReleaseAge": "0 days"
     }
   ],
   "git-submodules": {
