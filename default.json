@@ -12,6 +12,7 @@
   "cloneSubmodules": true,
   "minimumReleaseAge": "14 days",
   "semanticCommits": true,
+  "postUpdateOptions": ["pnpmDedupe", "composerNoMinimalChanges"],
   "packageRules": [
     {
       "description": "1st party LocalBytes dependencies — automerge, no cooldown",
@@ -23,6 +24,7 @@
       "minimumReleaseAge": "0 days"
     }
   ],
+  "pinDigests": true,
   "nix": {
     "enabled": true
   },
