@@ -25,10 +25,16 @@
     }
   ],
   "pinDigests": true,
-  "nix": {
-    "enabled": true
-  },
   "git-submodules": {
-    "enabled": true
+    "enabled": true,
+    "automerge": true
+  },
+  "nix": {
+    "enabled": true,
+    "automerge": true
+  },
+  "pre-commit": {
+    "enabled": true,
+    "automerge": true
   }
 }
