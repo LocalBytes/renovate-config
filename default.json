@@ -3,15 +3,17 @@
   "description": "LocalBytes org-wide Renovate defaults",
   "extends": [
     "config:recommended",
-    ":disableDependencyDashboard",
-    ":automergeBranch",
     ":automergeMinor",
     ":automergeDigest"
   ],
   "timezone": "Europe/London",
-  "cloneSubmodules": true,
+  "dependencyDashboard": false,
+  "automergeType": "branch",
+  "rebaseWhen": "conflicted",
   "minimumReleaseAge": "14 days",
+  "pinDigests": true,
   "semanticCommits": true,
+  "cloneSubmodules": true,
   "postUpdateOptions": ["pnpmDedupe", "composerNoMinimalChanges"],
   "packageRules": [
     {
@@ -24,7 +26,6 @@
       "minimumReleaseAge": "0 days"
     }
   ],
-  "pinDigests": true,
   "git-submodules": {
     "enabled": true,
     "automerge": true
