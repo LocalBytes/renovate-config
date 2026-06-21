@@ -28,6 +28,7 @@
       "description": "Composer non-major updates",
       "matchManagers": ["composer"],
       "matchUpdateTypes": ["minor", "patch", "digest"],
+      "matchCurrentCount": ">1",
       "groupName": "Composer dependencies",
       "groupSlug": "composer"
     },
@@ -35,6 +36,7 @@
       "description": "npm non-major updates",
       "matchManagers": ["npm"],
       "matchUpdateTypes": ["minor", "patch", "digest"],
+      "matchCurrentCount": ">1",
       "groupName": "npm dependencies",
       "groupSlug": "npm"
     },
@@ -42,6 +44,7 @@
       "description": "Python non-major updates",
       "matchManagers": ["pip_requirements", "pip-compile", "pipenv", "uv"],
       "matchUpdateTypes": ["minor", "patch", "digest"],
+      "matchCurrentCount": ">1",
       "groupName": "Python dependencies",
       "groupSlug": "python"
     },
@@ -49,6 +52,7 @@
       "description": "Docker non-major updates",
       "matchManagers": ["dockerfile", "docker-compose"],
       "matchUpdateTypes": ["minor", "patch", "digest"],
+      "matchCurrentCount": ">1",
       "groupName": "Docker dependencies",
       "groupSlug": "docker"
     },
@@ -56,6 +60,7 @@
       "description": "GitHub Actions non-major updates",
       "matchManagers": ["github-actions"],
       "matchUpdateTypes": ["minor", "patch", "digest"],
+      "matchCurrentCount": ">1",
       "groupName": "GitHub Actions",
       "groupSlug": "gha"
     },
@@ -63,6 +68,7 @@
       "description": "Nix non-major updates",
       "matchManagers": ["nix"],
       "matchUpdateTypes": ["minor", "patch", "digest"],
+      "matchCurrentCount": ">1",
       "groupName": "Nix dependencies",
       "groupSlug": "nix"
     },
@@ -70,6 +76,7 @@
       "description": "pre-commit non-major updates",
       "matchManagers": ["pre-commit"],
       "matchUpdateTypes": ["minor", "patch", "digest"],
+      "matchCurrentCount": ">1",
       "groupName": "pre-commit hooks",
       "groupSlug": "pre-commit"
     }
